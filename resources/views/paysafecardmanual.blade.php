@@ -5,7 +5,7 @@
 @section('content')
     <div class="container content">
         @error('code_1','code_2','code_3','code_4')
-        <span class="invalid-feedback" role="alert"><strong>4 caractere in each section</strong></span>
+        <span class="invalid-feedback" role="alert"><strong>4 characters in each section</strong></span>
         @enderror
         <div class="card shadow mb-4">
             <div class="card-body center">
