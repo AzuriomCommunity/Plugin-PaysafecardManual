@@ -2,12 +2,15 @@
     "id": "paysafecardmanual",
     "name": "PaysafecardManual",
     "description": "Manually accept paysafecard payments.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "url": "https://github.com/AzuriomCommunity/Plugin-PaysafecardManual",
     "authors": [
         "Javdu10"
     ],
     "azuriom_api": "1.0.0",
+    "dependencies": {
+        "shop": "^1.0.0"
+    },
     "providers": [
         "\\Azuriom\\Plugin\\PaysafecardManual\\Providers\\PaysafecardManualServiceProvider",
         "\\Azuriom\\Plugin\\PaysafecardManual\\Providers\\RouteServiceProvider"
