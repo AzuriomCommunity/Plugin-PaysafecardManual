@@ -32,12 +32,6 @@ class PaysafecardManualServiceProvider extends BasePluginServiceProvider
     {
         // $this->registerPolicies();
 
-        if (! class_exists(PaymentItem::class) || ! plugins()->isEnabled('shop')) {
-            logger()->warning('PaysafecardManual plugin needs the shop plugin v0.2 or higher to work !');
-
-            return;
-        }
-
         $this->loadViews();
 
         $this->loadTranslations();
