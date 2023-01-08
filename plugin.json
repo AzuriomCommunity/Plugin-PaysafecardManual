@@ -8,6 +8,9 @@
         "Javdu10"
     ],
     "azuriom_api": "1.0.0",
+    "dependencies": {
+        "shop": "^1.0.0"
+    },
     "providers": [
         "\\Azuriom\\Plugin\\PaysafecardManual\\Providers\\PaysafecardManualServiceProvider",
         "\\Azuriom\\Plugin\\PaysafecardManual\\Providers\\RouteServiceProvider"
